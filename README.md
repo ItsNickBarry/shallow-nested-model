@@ -19,7 +19,7 @@ $ rake routes
 ```
 
 ```javascript
-Post = Backbone.Model.extend({
+Post = Backbone.ShallowNestedModel.extend({
   urlRoot: '/posts',
 });
 
